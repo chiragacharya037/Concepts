@@ -1,0 +1,3 @@
+BINS := $(patsubst %,%$(PRG_SUFFIX),$(PRGS))
+## OBJS are automagically compiled by make.
+OBJS := $(patsubst %,%.o,$(PRGS))

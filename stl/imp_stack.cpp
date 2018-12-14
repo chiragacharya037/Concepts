@@ -6,7 +6,6 @@
 template<class T>
 class Stack {
 public:
-    Stack(){};
     Stack(const std::initializer_list<T>& i):elem(i) {}
     int size() const { return elem.size(); }
     bool empty() const { return elem.empty();}

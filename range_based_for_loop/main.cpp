@@ -2,7 +2,7 @@
 #include <vector>
 int main()
 {
-    // Iterating over whole array
+    // Iterating over whole vector
     std::vector<int> v = {0, 1, 2, 3, 4, 5};
     for (auto i : v)
     {
